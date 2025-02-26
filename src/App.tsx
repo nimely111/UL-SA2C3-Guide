@@ -9,7 +9,8 @@ function App() {
           <img src={ulLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>University Of Liberia</h1>
+      <h1>STUDENT ACADEMIC ADVISEMENT AND CAREER COUNCELING CENTER</h1>
+      <p>Welcome to the University of Liberia Student Academic Advisory and Career Counseling Center (UL-SA <sup>2</sup>C<sup>3</sup>)</p>
     </>
   )
 }
