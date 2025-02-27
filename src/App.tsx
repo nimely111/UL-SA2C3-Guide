@@ -1,22 +1,17 @@
-import ulLogo from './assets/logo.png'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <div >
-        <Header />
-          <div className="h-36 flex items-center justify-center mt-20">
-          <img src={ulLogo} alt="ul logo" />
-          </div>
-      </div>
-      <h1 className='text-center font-medium mt-10'>STUDENT ACADEMIC ADVISEMENT AND CAREER COUNCELING CENTER</h1>
-      <p className='text-center font-medium mt-10'>Welcome to the University of Liberia Student Academic Advisory and Career Counseling Center (UL-SA <sup>2</sup>C<sup>3</sup>)</p>
-      <Footer />
-
-    </>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+      </Routes>
+    </Router>
+  );
+};
 
 export default App;
+
