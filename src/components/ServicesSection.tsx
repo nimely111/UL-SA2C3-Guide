@@ -14,6 +14,7 @@ const services = [
 ];
 
 const ServicesSection = () => {
+const [seletedService, setSeletedservice] = useState<string | null>(null);
 
   return (
     <div>
