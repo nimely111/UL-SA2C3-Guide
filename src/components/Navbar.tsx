@@ -5,8 +5,8 @@ const Navbar = () => {
       <div className='container mx-auto flex justify-between'>
         <h1 className='text-3xl font-bold'>SA2C3</h1>
         <ul className="flex gap-4">
-            <li><Link to="/" className='hover underlie text-2xl'>Home</Link></li>
-            <li><Link to="/services" className='hover underlie text-2xl'>Services</Link></li>
+            <li><Link to="/" className='hover:underline text-2xl'>Home</Link></li>
+            <li><Link to="/services" className='hover:underline text-2xl'>Services</Link></li>
         </ul>
       </div>
     </nav>
