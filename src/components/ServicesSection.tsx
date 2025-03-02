@@ -23,7 +23,7 @@ const [seletedService, setSeletedservice] = useState<string | null>(null);
             {services.map((service, index) => (
                 <button
                 key={index}
-                className="p-4 bg-white shadow-md rounded-lg text-center hover:bg-blue-500 hover:text-white transition"
+                className="p-4 bg-white shadow-md rounded-lg text-center hover:bg-blue-900 hover:text-white transition"
                 onClick={() => setSeletedservice(service)}
                 >
                     {service}
