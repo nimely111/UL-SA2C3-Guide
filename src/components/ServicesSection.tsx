@@ -31,7 +31,7 @@ const [seletedService, setSeletedservice] = useState<string | null>(null);
             ))}
         </div>
         {seletedService && (
-            <div className="mt-6 p-4 bg-gray-200 texxt-center rounded-lg">
+            <div className="mt-6 mx-12 p-4 bg-gray-200 text-center rounded-lg">
                 <h3 className="text-xl font-bold">{seletedService}</h3>
                 <p className="text-gray-700">More details about {seletedService}will be available soon.</p>
             </div>
