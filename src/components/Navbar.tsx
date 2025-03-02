@@ -3,7 +3,9 @@ const Navbar = () => {
   return (
     <nav className='bg-blue-900 text-white p-4'>
       <div className='container mx-auto flex justify-between'>
-        <h1 className='text-3xl font-bold'>SA2C3</h1>
+        <h1 className='text-3xl font-bold'>
+          <Link to="/">SA2C3</Link>
+          </h1>
         <ul className="flex gap-4">
             <li><Link to="/" 
             className='hover:underline text-2xl'>Home</Link></li>
