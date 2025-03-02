@@ -12,7 +12,7 @@ const Home = () => {
         <p className="mt-2 text-gray-600">Explore our services to support your academic and career journey.</p>
       <img className="h-30 rounded-4xl object-center" src={ulLogo} alt="university of liberia logo" />
       </header>
-      {/* <ServicesSection /> */}
+      <ServicesSection />
     </div>
   );
 };
