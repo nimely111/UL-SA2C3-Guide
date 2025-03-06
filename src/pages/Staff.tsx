@@ -1,7 +1,9 @@
+import Navbar from "../components/Navbar"
 const Staff = () => {
     return (
         <div>
-            <h1>Staff Component</h1>
+            <Navbar />
+            <h1>Staff Page</h1>
         </div>
     )
 }
