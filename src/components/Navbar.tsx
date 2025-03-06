@@ -11,6 +11,14 @@ const Navbar = () => {
             className='hover:underline text-2xl'>Home</Link></li>
             <li><Link to="/services" 
             className='hover:underline text-2xl'>Services</Link></li>
+            <li>
+              <Link to="/staff"
+              className="hover:underline text-2xl">Staff</Link>
+            </li>
+            <li>
+              <Link to="/contact"
+              className="hover:underline text-2xl">Contact</Link>
+            </li>
         </ul>
       </div>
     </nav>
