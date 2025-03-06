@@ -3,14 +3,14 @@ import { useState } from "react"
 const services = [
     "Academic Advisement",
     "Career Counseling",
-    "Assessment Reporting",
     "Personal Counseling",
-    "Therapeutic Services",
     "Training",
-    "Outreach",
     "Consultation",
-    "Crisis Intervention",
     "Referral",
+    "Crisis Intervention",
+    "Outreach",
+    "Therapeutic Services",
+    "Assessment Reporting",
 ];
 
 const ServicesSection = () => {
@@ -33,7 +33,7 @@ const [seletedService, setSeletedservice] = useState<string | null>(null);
         {seletedService && (
             <div className="mt-6 mx-12 p-4 bg-gray-200 text-center rounded-lg">
                 <h3 className="text-xl font-bold">{seletedService}</h3>
-                <p className="text-gray-700">More details about {seletedService}will be available soon.</p>
+                <p className="text-gray-700">More details about {seletedService} will be available soon.</p>
             </div>
         )}
     </div>
