@@ -3,9 +3,9 @@ const Staff = () => {
     return (
         <div>
             <Navbar />
-            <h1>Staff Page</h1>
+            <h1  className="mt-20 text-2xl font-bold text-center">Staff Page</h1>
         </div>
     )
 }
 
-export default Staff
+export default Staff;
