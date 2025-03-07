@@ -1,24 +1,24 @@
-const StaffCard = () => {
+const StaffCard = (props) => {
         return (
             <article className="contact-card">
                 <img
-                    src={profile1}
-                    alt="Photo of Mr. Whiskerson"
+                    src={props.img}
+                    alt={props.name}
                 />
-                <h3>Dr. Al-Hassan Conteh</h3>
+                <h3>{props.name}</h3>
                 <div className="info-group">
                     <img
-                        src={phone}
+                        src="phone"
                         alt="phone icon"
                     /> 
-                    <p>(212) 555-1234</p>
+                    <p>{props.phone}</p>
                 </div>
                 <div className="info-group">
                     <img
-                        src={mail}
+                        src="email"
                         alt="mail icon"
                     />
-                    <p>mr.whiskaz@catnap.meow</p>
+                    <p>{props.email}</p>
                 </div>
             </article>
         )
