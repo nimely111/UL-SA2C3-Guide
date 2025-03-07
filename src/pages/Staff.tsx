@@ -3,6 +3,7 @@ import StaffCard from "../components/StaffCard";
 import profile1 from "../assets/profile1.jpg"
 import profile2 from "../assets/profile2.jpg"
 import profile3 from "../assets/profile3.jpg"
+import profile4 from "../assets/profile4.jpg"
 const Staff = () => {
     return (
         <div>
@@ -28,7 +29,7 @@ const Staff = () => {
                      email="mr.whiskaz@catnap.meow"
                 />
                 <StaffCard
-                     img={profile1}
+                     img={profile4}
                      name="Ms. Neresa ATolbert"
                      phone="(+231) 555-1234"
                      email="mr.whiskaz@catnap.meow"
