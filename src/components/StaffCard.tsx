@@ -7,27 +7,27 @@ import phone_logo from "../assets/phone.jpg"
     img: string;
     phone?: string;
 }
-const StaffCard:React.FC<StaffCardProps> = (props) => {
+const StaffCard:React.FC<StaffCardProps> = ({name, email, img, phone}) => {
         return (
             <article className="contact-card">
                 <img
-                    src={props.img}
-                    alt={props.name}
+                    src={img}
+                    alt={name}
                 />
-                <h3>{props.name}</h3>
+                <h3>{name}</h3>
                 <div className="info-group">
                     <img
                         src={phone_logo}
                         alt="phone icon"
                     /> 
-                    <p>{props.phone}</p>
+                    <p>{phone}</p>
                 </div>
                 <div className="info-group">
                     <img
                         src={mail_logo}
                         alt="mail icon"
                     />
-                    <p>{props.email}</p>
+                    <p>{email}</p>
                 </div>
             </article>
         )
