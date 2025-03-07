@@ -1,6 +1,13 @@
 import mail_logo from "../assets/mail.jpg"
 import phone_logo from "../assets/phone.jpg"
-const StaffCard = (props) => {
+
+ interface StaffCardProps {
+    name: string;
+    email: string;
+    img: string;
+    phone?: string;
+}
+const StaffCard:React.FC<StaffCardProps> = (props) => {
         return (
             <article className="contact-card">
                 <img
