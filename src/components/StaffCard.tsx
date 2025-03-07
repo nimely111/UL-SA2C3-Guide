@@ -2,7 +2,7 @@ const StaffCard = () => {
         return (
             <article className="contact-card">
                 <img
-                    src="../assets/profile1.jpg"
+                    src="../assets/logo.PNG"
                     alt="Photo of Mr. Whiskerson"
                 />
                 <h3>Mr. Whiskerson</h3>
