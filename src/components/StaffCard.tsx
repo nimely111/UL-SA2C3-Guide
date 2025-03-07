@@ -1,8 +1,3 @@
-import profile1 from "../assets/profile1.jpg"
-import profile2 from "../assets/profile2.jpg"
-import profile3 from "../assets/profile3.jpg"
-import phone from "../assets/phone.PNG"
-import mail from "../assets/mail.PNG"
 const StaffCard = () => {
         return (
             <article className="contact-card">
