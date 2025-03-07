@@ -9,7 +9,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   assetsInclude: ['**/*.PNG'],
-  base: "/UL-SA2C3-Guide",
   server:{
     port: 3000,
   }
