@@ -1,8 +1,9 @@
+import profile1 from "../assets/profile1.jpg"
 const StaffCard = () => {
         return (
             <article className="contact-card">
                 <img
-                    src="../assets/logo.PNG"
+                    src={profile1}
                     alt="Photo of Mr. Whiskerson"
                 />
                 <h3>Mr. Whiskerson</h3>
