@@ -16,7 +16,7 @@ const StaffCard:React.FC<StaffCardProps> = ({name, email, img, phone}) => {
                 />
                 <h3>{name}</h3>
                 <div className="info-group">
-                    <img
+                    <img className="w-12 h-12"
                         src={phone_logo}
                         alt="phone icon"
                     /> 
