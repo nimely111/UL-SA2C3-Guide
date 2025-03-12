@@ -10,7 +10,7 @@ import phone_logo from "../assets/phone.jpg"
 const StaffCard:React.FC<StaffCardProps> = ({name, email, img, phone}) => {
         return (
             <article className="contact-card">
-                <img
+                <img className="rounded-lg"
                     src={img}
                     alt={name}
                 />
