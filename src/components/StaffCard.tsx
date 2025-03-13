@@ -22,7 +22,7 @@ const StaffCard:React.FC<StaffCardProps> = ({name, email, img, phone}) => {
                     /> 
                     <p>{phone}</p>
                 </div>
-                <div className="info-group">
+                <div className="info-group flex">
                     <img className="w-12 h-12"
                         src={mail_logo}
                         alt="mail icon"
